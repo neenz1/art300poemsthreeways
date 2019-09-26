@@ -5,6 +5,9 @@ body{
 .title2{
     display: none;
 }
+.title3{
+    display:none;
+}
 h1{
     font-size:800%;
     margin-bottom: -8%;
@@ -62,111 +65,151 @@ h2{
         background-color:white;
         display:grid;
         grid-template-columns: 0fr 1fr 1fr;
-}
-.title1{
-    display: none;
+    }
+    .title1{
+        display: none;
 
-}
-.title2{
-    display:block;
-}
-h3{
-    font-size:700%;
-    margin-top: -10%;
-    color: #FF0BA1;
-    opacity:.60;
-    letter-spacing:-17px;
-    margin-bottom: -15%;
-}
-.stanza_1{
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    text-transform: uppercase;
-    margin-top:20%;
-}
-.stanza_2{
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
+    }
+    .title2{
+        display:block;
+    }
+    .title3{
+        display: none;
+    }
+    h3{
+        font-size:700%;
+        margin-top: -10%;
+        color: #FF0BA1;
+        opacity:.60;
+        letter-spacing:-17px;
+        margin-bottom: -15%;
+    }
+    .stanza_1{
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        text-transform: uppercase;
+        margin-top:20%;
+    }
+    .stanza_2{
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
+        
     
-  
-}
-.stanza_3{
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top:20%;
-    text-transform: uppercase;
-   
-}
-.stanza_3{
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
-   
-}
-.stanza_4{  
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
-   
+    }
+    .stanza_3{
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top:20%;
+        text-transform: uppercase;
     
-}
-.stanza_5{
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
-}
-.stanza_6{
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
+    }
+    .stanza_3{
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
     
+    }
+    .stanza_4{  
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
     
-}
-.stanza_7{
-    font-size: 120%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
-   
-}
-.stanza_7{
-    font-size: 100%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
+        
+    }
+    .stanza_5{
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
+    }
+    .stanza_6{
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
+        
+        
+    }
+    .stanza_7{
+        font-size: 120%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
     
+    }
+    .stanza_7{
+        font-size: 100%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
+        
+    }
+    .stanza_8{
+        font-size: 120%;
+        text-align:right;
+        color: #FF0BA1;
+        margin-top: 20%;
+        text-transform: uppercase;
+    
+    }
 }
-.stanza_8{
-    font-size: 120%;
-    text-align:right;
-    color: #FF0BA1;
-    margin-top: 20%;
-    text-transform: uppercase;
- 
-}
-
-
-
-
-
-
 
 @media only screen and (min-width:800px) and (max-width:1200px){
+    body{
+        background-color:white;
+
+    }
+    .title1{
+        display: none;
+    }
+    .title2{
+        display: none;
+    }
+    .title3{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        z-index: 0;
+    
+    }
+    h4{
+        font-size:9em;
+        color:#FF0BA1;
+        opacity:.2;
+        letter-spacing:37px;
+        margin-bottom: 2%;
+        line-height:.05em; 
+
+
+
+    }
+    .poem{
+        z-index: 12;
+        position: relative;
+        text-transform: uppercase;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        color:black;
+    
+
+    }
+
+
 
     
 }
